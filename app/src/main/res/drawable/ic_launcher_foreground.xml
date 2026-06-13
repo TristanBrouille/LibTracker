@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Tiled Surface -->
+    <path
+        android:fillColor="#E0F2F1"
+        android:pathData="M25,80 L83,80 L90,95 L18,95 Z" />
+    <path
+        android:strokeColor="#2F3E46"
+        android:strokeWidth="1"
+        android:pathData="M25,80 L83,80 L90,95 L18,95 M40,80 L38,95 M54,80 L54,95 M68,80 L72,95 M21.5,87.5 L86.5,87.5" />
+
+    <!-- Bicycle -->
+    <!-- Rear Wheel -->
+    <path
+        android:strokeColor="#2F3E46"
+        android:strokeWidth="2.5"
+        android:pathData="M35,65 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0" />
+    <!-- Front Wheel -->
+    <path
+        android:strokeColor="#2F3E46"
+        android:strokeWidth="2.5"
+        android:pathData="M73,65 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0" />
+    <!-- Frame -->
+    <path
+        android:strokeColor="#2F3E46"
+        android:strokeWidth="2.5"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M35,65 L50,65 L65,45 L50,45 Z M50,65 L50,45 M65,45 L73,65 M65,45 L62,35 L68,35 M50,45 L47,40 L53,40" />
+
+    <!-- Location Pin Overlay -->
+    <path
+        android:fillColor="#008275"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M70,45 c0,-5.5 -4.5,-10 -10,-10 s-10,4.5 -10,10 c0,7.5 10,15 10,15 s10,-7.5 10,-15 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,45 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+
+</vector>
